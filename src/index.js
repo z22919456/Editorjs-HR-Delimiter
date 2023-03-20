@@ -66,7 +66,11 @@ export default class Delimiter {
   drawView() {
     let div = document.createElement('DIV');
 
-    div.classList.add(this._CSS.wrapper, this._CSS.block);
+    div.classList.add(this._CSS.wrapper);
+
+    let hr = document.createElement('HR');
+
+    div.appendChild(hr);
 
     return div;
   }
