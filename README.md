@@ -1,6 +1,6 @@
 ![](https://badgen.net/badge/Editor.js/v2.0/blue)
 
-# Delimiter Tool for Editor.js
+# Delimiter Tool for Editor.js (Hr tag Version)
 
 Delimiter Tool for the [Editor.js](https://editorjs.io).
 
@@ -14,13 +14,13 @@ This tool is a modification of the @editorjs/delimiter library that replaces the
 Get the package
 
 ```shell
-npm i --save-dev @editorjs/delimiter
+npm i --save-dev editorjs_delimiter
 ```
 
 Include module at your application
 
 ```javascript
-const Delimiter = require('@editorjs/delimiter');
+const Delimiter = require('editorjs_delimiter');
 ```
 
 ### Download to your project's source dir
@@ -28,17 +28,6 @@ const Delimiter = require('@editorjs/delimiter');
 1. Upload folder `dist` from repository
 2. Add `dist/bundle.js` file to your page.
 
-### Load from CDN
-
-You can load specific version of package from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@editorjs/delimiter).
-
-`https://cdn.jsdelivr.net/npm/@editorjs/delimiter@1.0.1`
-
-Require this script on a page with Editor.js.
-
-```html
-<script src="..."></script>
-```
 
 ## Usage
 
