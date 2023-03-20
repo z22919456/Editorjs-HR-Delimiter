@@ -1,6 +1,6 @@
 {
-  "name": "@editorjs/delimiter",
-  "version": "1.3.0",
+  "name": "@editorjs/hrdelimiter",
+  "version": "1.0.0",
   "keywords": [
     "codex editor",
     "delimiter",
@@ -8,16 +8,16 @@
     "editor.js",
     "editorjs"
   ],
-  "description": "Delimiter Tool for Editor.js",
+  "description": "Hr Tag Delimiter Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/delimiter",
+  "repository": "https://github.com/z22919456/Editorjs-HR-Delimiter",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX Team",
+    "name": "CodeX Team  (modified by Arthur Li)",
     "email": "team@ifmo.su"
   },
   "devDependencies": {

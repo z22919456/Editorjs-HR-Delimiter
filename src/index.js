@@ -8,7 +8,7 @@ import { IconDelimiter } from '@codexteam/icons'
 /**
  * Delimiter Block for the Editor.js.
  *
- * @author CodeX (team@ifmo.su)
+ * @author CodeX (team@ifmo.su) (modified by Arthur Li)
  * @copyright CodeX 2018
  * @license The MIT License (MIT)
  * @version 2.0.0
@@ -44,7 +44,7 @@ export default class Delimiter {
    *   config - user config for Tool
    *   api - Editor.js API
    */
-  constructor({data, config, api}) {
+  constructor({ data, config, api }) {
     this.api = api;
 
     this._CSS = {

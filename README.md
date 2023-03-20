@@ -4,7 +4,8 @@
 
 Delimiter Tool for the [Editor.js](https://editorjs.io).
 
-![](https://capella.pics/de70e7f8-56cd-4779-848f-52c3f68deb47.jpg)
+This tool is a modification of the @editorjs/delimiter library that replaces the asterisk separators in the original library with horizontal lines.
+
 
 ## Installation
 
